@@ -194,10 +194,16 @@ footer {
 }
 .menu-toggle {
   position: fixed;
-  top: 80px;
+  top: 80px; /* <-- змінив з 20px на 80px */
   left: 15px;
   z-index: 1000;
   background: linear-gradient(145deg, #ff6600, #cc5200);
-  /* ...інші властивості... */
+  color: #fff;
+  font-size: 24px;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 14px;
+  box-shadow: 0 0 20px #ff6600, inset 0 0 10px #ff6600;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
-/* Блоки .sidebar, .sidebar a і .close-btn — продовження нижче */
