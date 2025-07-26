@@ -207,3 +207,24 @@ footer {
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
+.page-content {
+  background-color: #111;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 40px;
+  min-height: 100vh;
+}
+
+.page-content h1 {
+  color: #ff6600;
+  margin-bottom: 20px;
+}
+
+.page-content a {
+  color: #ff6600;
+  text-decoration: none;
+}
+
+.page-content a:hover {
+  text-decoration: underline;
+}
