@@ -304,3 +304,9 @@ body {
   font-weight: bold;
   color: #fff;
 }
+.product-img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+  margin: 20px 0;
+}
