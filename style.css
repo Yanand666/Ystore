@@ -245,3 +245,20 @@ footer {
   background: #cc5200;
   box-shadow: 0 0 20px #ff6600;
 }
+.buy-button {
+  margin-top: 20px;
+  background: linear-gradient(145deg, #ff6600, #cc5200);
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 0 12px #ff6600, inset 0 0 6px #ff6600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.buy-button:hover {
+  background: #cc5200;
+  box-shadow: 0 0 20px #ff6600;
+}
